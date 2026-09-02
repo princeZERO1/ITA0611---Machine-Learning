@@ -1,0 +1,4 @@
+Dataset type: synthetic educational dataset.
+Generated with NumPy random seed 42 for reproducibility.
+Purpose: self-contained demonstration of the ITA0611 assignment.
+Limitation: these are not field-measured observations and must not be presented as validated agronomic data.

@@ -1,0 +1,2 @@
+Best fitness: 0.7142
+Selected features (6): ['temperature_c', 'humidity_pct', 'soil_p_mgkg', 'soil_ph', 'leaf_spot', 'pest_damage']

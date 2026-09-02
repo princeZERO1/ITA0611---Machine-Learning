@@ -1,0 +1,82 @@
+|--- num__leaf_spot <= 0.85
+|   |--- num__pest_damage <= 0.83
+|   |   |--- num__humidity_pct <= 0.50
+|   |   |   |--- num__rainfall_mm <= 1.96
+|   |   |   |   |--- num__soil_ph <= -1.70
+|   |   |   |   |   |--- class: Medium
+|   |   |   |   |--- num__soil_ph >  -1.70
+|   |   |   |   |   |--- class: Low
+|   |   |   |--- num__rainfall_mm >  1.96
+|   |   |   |   |--- num__temperature_c <= 0.38
+|   |   |   |   |   |--- class: Low
+|   |   |   |   |--- num__temperature_c >  0.38
+|   |   |   |   |   |--- class: Medium
+|   |   |--- num__humidity_pct >  0.50
+|   |   |   |--- num__rainfall_mm <= -0.36
+|   |   |   |   |--- num__soil_p_mgkg <= -0.86
+|   |   |   |   |   |--- class: Medium
+|   |   |   |   |--- num__soil_p_mgkg >  -0.86
+|   |   |   |   |   |--- class: Low
+|   |   |   |--- num__rainfall_mm >  -0.36
+|   |   |   |   |--- num__soil_n_mgkg <= -0.81
+|   |   |   |   |   |--- class: Medium
+|   |   |   |   |--- num__soil_n_mgkg >  -0.81
+|   |   |   |   |   |--- class: Low
+|   |--- num__pest_damage >  0.83
+|   |   |--- num__temperature_c <= 0.40
+|   |   |   |--- num__humidity_pct <= -0.07
+|   |   |   |   |--- num__soil_moisture <= -0.98
+|   |   |   |   |   |--- class: Medium
+|   |   |   |   |--- num__soil_moisture >  -0.98
+|   |   |   |   |   |--- class: Low
+|   |   |   |--- num__humidity_pct >  -0.07
+|   |   |   |   |--- num__soil_k_mgkg <= 0.37
+|   |   |   |   |   |--- class: Medium
+|   |   |   |   |--- num__soil_k_mgkg >  0.37
+|   |   |   |   |   |--- class: Medium
+|   |   |--- num__temperature_c >  0.40
+|   |   |   |--- num__soil_p_mgkg <= 0.49
+|   |   |   |   |--- num__temperature_c <= 1.82
+|   |   |   |   |   |--- class: Medium
+|   |   |   |   |--- num__temperature_c >  1.82
+|   |   |   |   |   |--- class: Low
+|   |   |   |--- num__soil_p_mgkg >  0.49
+|   |   |   |   |--- num__soil_n_mgkg <= -1.12
+|   |   |   |   |   |--- class: High
+|   |   |   |   |--- num__soil_n_mgkg >  -1.12
+|   |   |   |   |   |--- class: Low
+|--- num__leaf_spot >  0.85
+|   |--- num__rainfall_mm <= -0.72
+|   |   |--- num__humidity_pct <= 0.32
+|   |   |   |--- num__previous_yield_tpha <= -1.16
+|   |   |   |   |--- class: Medium
+|   |   |   |--- num__previous_yield_tpha >  -1.16
+|   |   |   |   |--- num__soil_ph <= 1.30
+|   |   |   |   |   |--- class: Low
+|   |   |   |   |--- num__soil_ph >  1.30
+|   |   |   |   |   |--- class: Low
+|   |   |--- num__humidity_pct >  0.32
+|   |   |   |--- num__soil_ph <= 0.23
+|   |   |   |   |--- num__soil_p_mgkg <= -1.03
+|   |   |   |   |   |--- class: High
+|   |   |   |   |--- num__soil_p_mgkg >  -1.03
+|   |   |   |   |   |--- class: Medium
+|   |   |   |--- num__soil_ph >  0.23
+|   |   |   |   |--- num__soil_p_mgkg <= 0.20
+|   |   |   |   |   |--- class: Medium
+|   |   |   |   |--- num__soil_p_mgkg >  0.20
+|   |   |   |   |   |--- class: Low
+|   |--- num__rainfall_mm >  -0.72
+|   |   |--- cat__crop_type_Wheat <= 0.50
+|   |   |   |--- num__pest_damage <= 0.83
+|   |   |   |   |--- num__soil_p_mgkg <= 0.32
+|   |   |   |   |   |--- class: Medium
+|   |   |   |   |--- num__soil_p_mgkg >  0.32
+|   |   |   |   |   |--- class: Low
+|   |   |   |--- num__pest_damage >  0.83
+|   |   |   |   |--- num__humidity_pct <= -0.12
+|   |   |   |   |   |--- class: Medium
+|   |   |   |   |--- num__humidity_pct >  -0.12
+|   |   |   |   |   |--- class: High
+|   |   |--- cat__crop_type_Wheat >  0.50
+|   |   |   |--- class: Medium
