@@ -1,0 +1,53 @@
+Meal,Category,Calories,Protein_g,Carbs_g,Fat_g,Cost_Rs
+Idli Sambar,Breakfast,330,10,58,6,35
+Masala Dosa,Breakfast,420,9,62,14,45
+Vegetable Upma,Breakfast,280,8,45,8,30
+Pongal,Breakfast,350,9,52,11,40
+Oats Banana Bowl,Breakfast,390,14,62,10,50
+Egg Omelette + Toast,Breakfast,410,24,34,19,60
+Poha with Peanuts,Breakfast,320,9,48,10,35
+Chapati Egg Bhurji,Breakfast,430,22,48,16,55
+Ragi Dosa + Chutney,Breakfast,360,9,55,10,42
+Vegetable Sandwich,Breakfast,310,12,42,10,45
+Chicken Rice Bowl,Lunch,620,38,72,18,85
+Veg Rice + Dal,Lunch,540,18,86,12,55
+Sambar Rice,Lunch,500,15,82,10,45
+Curd Rice + Veggies,Lunch,470,13,70,12,40
+Chicken Biryani,Lunch,680,36,78,24,110
+Fish Rice Meal,Lunch,610,39,70,17,120
+Rajma Rice,Lunch,560,20,88,10,65
+Chickpea Rice Bowl,Lunch,570,21,84,11,60
+Chapati + Chicken Curry,Lunch,580,35,58,18,75
+Paneer Rice Bowl,Lunch,610,28,72,22,90
+Vegetable Pulao + Raita,Lunch,520,13,78,15,60
+Egg Rice Bowl,Lunch,560,24,74,16,65
+Dal Khichdi,Lunch,490,18,78,9,50
+Lemon Rice + Egg,Lunch,530,19,76,15,55
+Chicken Roti Wrap,Lunch,590,34,55,20,80
+Greek Yogurt + Fruit,Snack,210,12,28,5,45
+Banana + Peanuts,Snack,230,7,31,10,25
+Apple + Peanut Butter,Snack,220,6,29,10,40
+Boiled Eggs,Snack,155,13,1,11,30
+Sprouts Chaat,Snack,190,11,27,5,30
+Roasted Chickpeas,Snack,210,10,32,4,25
+Buttermilk + Banana,Snack,180,5,31,3,25
+Milk + Dates,Snack,220,8,35,6,30
+Fruit Bowl,Snack,160,3,38,1,35
+Peanut Chikki,Snack,190,6,22,9,20
+Paneer Tikka,Snack,280,22,8,18,70
+Corn Chaat,Snack,200,6,34,5,30
+Chicken Salad,Dinner,420,36,22,19,90
+Chapati + Dal,Dinner,450,18,68,9,50
+Vegetable Khichdi,Dinner,430,14,70,8,45
+Paneer Chapati,Dinner,520,25,55,20,75
+Egg Curry + Chapati,Dinner,500,27,52,18,65
+Fish Curry + Rice,Dinner,560,35,64,16,95
+Chicken Chapati Plate,Dinner,540,38,55,17,85
+Dal Rice + Salad,Dinner,480,16,78,8,48
+Vegetable Soup + Toast,Dinner,300,10,42,8,45
+Tofu Stir Fry + Rice,Dinner,500,25,65,14,75
+Paneer Pulao,Dinner,550,24,72,17,80
+Egg Fried Rice,Dinner,570,23,72,18,65
+Millet Khichdi,Dinner,410,13,68,7,50
+Chicken Vegetable Stir Fry,Dinner,450,40,24,20,95
+Curd Rice + Salad,Dinner,430,12,65,11,42

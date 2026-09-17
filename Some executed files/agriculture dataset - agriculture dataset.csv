@@ -1,0 +1,11 @@
+Record,Soil pH,Rainfall (mm),Temperature (°C),Irrigation (L/week),Season,Yield (tons/ha)
+1,6.2,450,31,180,Summer,3.8
+2,6.5,520,29,220,Monsoon,4.6
+3,6.8,540,28,210,Monsoon,4.9
+4,7,610,27,200,Monsoon,5.3
+5,6.1,390,33,250,Summer,3.5
+6,6.7,500,30,215,Monsoon,4.7
+7,7.2,650,26,190,Monsoon,5.5
+8,6.4,470,30,230,Summer,4.1
+9,6.9,560,28,205,Monsoon,5
+10,6.3,430,32,240,Summer,3.9
